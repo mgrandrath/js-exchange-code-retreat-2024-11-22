@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Vitest.GOL rules">
+    <configuration name="GOL rules" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <vitest-options value="--run" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/gol.test.ts" />
+      <test-names>
+        <test-name value="GOL rules" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="GOL rules.cell dies because of under population" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <vitest-options value="--run" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/gol.test.ts" />
+      <test-names>
+        <test-name value="GOL rules" />
+        <test-name value="cell dies because of under population" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Vitest.GOL rules" />
+        <item itemvalue="Vitest.GOL rules.cell dies because of under population" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>

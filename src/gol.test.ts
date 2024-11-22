@@ -7,3 +7,6 @@ describe("GOL rules", () => {
     expect(next).toEqual("DEAD");
   });
 });
+
+
+const evolveCell = ()=>"DEAD";
