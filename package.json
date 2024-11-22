@@ -1,0 +1,14 @@
+{
+  "name": "2024-11-22_code_retreat_js-exchange",
+  "packageManager": "yarn@4.5.2",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}
