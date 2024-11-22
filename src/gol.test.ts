@@ -72,6 +72,7 @@ const evolveCell = (cellState: CellState, livingNeighbours: number) => {
       return "DEAD";
 
     case 2:
+      return cellState;
     case 3:
       return "ALIVE";
   }
