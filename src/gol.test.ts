@@ -14,4 +14,6 @@ describe("GOL rules", () => {
   });
 });
 
-const evolveCell = () => "DEAD";
+const evolveCell = (_, livingNeighbours) => {
+  return livingNeighbours === 2 ? "ALIVE": "DEAD";
+};
