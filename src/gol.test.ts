@@ -32,6 +32,17 @@ describe("GOL rules", () => {
   });
 });
 
-const evolveCell = (_, livingNeighbours) => {
+type CellState = "ALIVE" | "DEAD";
+
+
+const evolveCell = (cellState: CellState, livingNeighbours: number) => {
+  switch (livingNeighbours) {
+    case 1:
+      return "DEAD";
+    case 2:
+      case 3:
+        return "ALIVE"
+
+  }
   return livingNeighbours === 2 ? "ALIVE" : "DEAD";
 };
